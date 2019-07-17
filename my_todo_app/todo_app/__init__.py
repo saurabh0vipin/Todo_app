@@ -59,7 +59,7 @@ def create_app(test_config=None):
         else:
             return render_template('todo_view.html',todos=person_todo_list)
 
-
+    # http://127.0.0.1:5000/add_todos?name=saurabh&todo=Repeat
     @app.route('/add_todos')
     def add_todos():
         name = request.args.get('name')
