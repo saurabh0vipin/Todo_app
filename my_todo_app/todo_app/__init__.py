@@ -7,11 +7,10 @@ from flask import render_template
 
 # our fake db
 todo_store = {}
-todo_store['depo'] = ['Go for run', 'Listen Rock Music']
-todo_store['shivang'] = ['Read book', 'Play Fifa', 'Drink Coffee']
-todo_store['raj'] = ['Study', 'Brush']
-todo_store['sanket'] = ['Sleep', 'Code']
-todo_store['aagam'] = ['play cricket', 'have tea']
+todo_store['sumit'] = ['Go for run', 'Listen Music']
+todo_store['saurabh'] = ['Wake Up', 'Eat', 'Code','Sleep']
+todo_store['raj'] = ['Study', 'Sleep']
+todo_store['sahil'] = ['Sleep', 'Code']
 
 def create_app(test_config=None):
     # create and configure the app
